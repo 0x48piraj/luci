@@ -1,14 +1,16 @@
-# OpenWrt luci feed
+# Vulnerable OpenWrt luci feed
 
 ## Description
 
-This is the OpenWrt "luci"-feed containing LuCI - OpenWrt Configuration Interface.
+This is a fork of OpenWrt "luci"-feed containing LuCI - OpenWrt Configuration Interface reverted back to the commit `f5671b4` _(https://github.com/openwrt/luci/commit/f5671b420a0a418a217cf55dd4fbee73f336b4de)_
+
+
 
 ## Usage
 
 This feed is enabled by default. Your feeds.conf.default (or feeds.conf) should contain a line like:
 ```
-src-git luci https://github.com/openwrt/luci.git
+src-git luci https://github.com/0x48piraj/luci.git
 ```
 
 To install all its package definitions, run:
