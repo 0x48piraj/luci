@@ -1,5 +1,8 @@
 # Vulnerable OpenWrt luci feed
 
+#### NOTE :
+> **DO NOT COPY AND USE THIS REPOSITORY, THIS LUCI FEED IS VULNERABLE WITH A CRITICAL OS COMMAND INJECTION BUG. THIS FEED IS CURRENTLY BEING UTILISED IN IOT-GOAT PROJECT**
+
 ## Description
 
 This is a fork of OpenWrt "luci"-feed containing LuCI - OpenWrt Configuration Interface reverted back to the commit `f5671b4` _(https://github.com/openwrt/luci/commit/f5671b420a0a418a217cf55dd4fbee73f336b4de)_
